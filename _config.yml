@@ -1,0 +1,80 @@
+# Site settings
+title: NoviceCodeVoyager's CV 
+description: NoviceCodeVoyager's CV
+favicon: /assets/img/avatar.JPG
+baseurl: ""
+url: https://NoviceCodeVoyager.github.io/resumecard
+rss_url: /pages/atom.xml
+google_analytics: 
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: NoviceCodeVoyager # Your Name
+  title: Student # Your Job
+  address: Seoul, South Korea # Your address
+  email: email@gmail.com # Your email
+  link: # Desired link to show
+  # weibo:
+  github: NoviceCodeVoyager # Github username
+  # linkedin:
+  # twitter:
+  gavatar: /resumecard/assets/img/avatar.JPG
+  # stackoverflow:
+  workHistory: # Write Your timeLine
+    - work1:
+      company: Company 1 # Company Name
+      location: Seoul, South Korea # Company Location
+      title: Service Business Division # Incumbent department or position at the company
+      started: 2022 # Year of employment
+      duration: (2022 - 2022) # e.g. (Year of joining the company - Year of leaving the company)
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lorem risus. Duis non imperdiet sem. Nulla facilisi. Sed mi ante, ultricies non mauris vel, laoreet imperdiet ex. Nam eu libero eu lectus lobortis volutpat quis nec nunc. Aenean volutpat hendrerit efficitur. Nunc ut enim diam. Ut cursus lorem quis diam tincidunt finibus. # Professional experiences during employment, notable achievements, or company description.
+
+  educationHistory:
+    - education1:
+      organization: XXXXXX University # University name
+      location: Kangwon, South Korea # University location
+      degree: Bachelor # degree
+      major: Medical Engineering # major
+      started: 2016 # Year of enrollment
+      duration: (2016 - 2022) # e.g. (Year of joining the company - Year of leaving the company)
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lorem risus. Duis non imperdiet sem. Nulla facilisi. Sed mi ante, ultricies non mauris vel, laoreet imperdiet ex. Nam eu libero eu lectus lobortis volutpat quis nec nunc. Aenean volutpat hendrerit efficitur. Nunc ut enim diam. Ut cursus lorem quis diam tincidunt finibus.
+  
+  # language level (Expanding the proficiency levels based on the Common European Framework of Reference for Languages (CEFR))
+  # limit < Beginner < Elementary < Pre-Intermediate < Intermediate < Upper-Intermediate < Advanced < Native
+  languages:
+    - language1:
+      name: Korean
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Intermediate
+    - language3:
+      name: Japanese
+      proficiency: limit
+  
+  programmingSkills:
+    - skill1:
+      name: Python
+      percentage: 80%
+    - skill2:
+      name: Java/Java EE
+      percentage: 80%
+    - skill3:
+      name: React
+      percentage: 40%
+
+site:
+  kakao_map:
+    api_key: 63810566dd14817c19b5aa2b4fc7ff03
+    center:
+      latitude: 37.56682
+      longitude: 126.97865
+    marker:
+      latitude: 37.56682
+      longitude: 126.97865
+      title: "서울"
