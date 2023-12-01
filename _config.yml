@@ -67,14 +67,3 @@ author:
     - skill3:
       name: React
       percentage: 40%
-
-site:
-  kakao_map:
-    api_key: 63810566dd14817c19b5aa2b4fc7ff03
-    center:
-      latitude: 37.56682
-      longitude: 126.97865
-    marker:
-      latitude: 37.56682
-      longitude: 126.97865
-      title: "서울"
