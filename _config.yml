@@ -3,7 +3,7 @@ title: NoviceCodeVoyager's CV
 description: NoviceCodeVoyager's CV
 favicon: /assets/img/avatar.jpg
 baseurl: ""
-url: https://NoviceCodeVoyager.github.io/resumecard
+url: # eg. https://NoviceCodeVoyager.github.io/resumecard
 rss_url: /pages/atom.xml
 google_analytics: 
 
